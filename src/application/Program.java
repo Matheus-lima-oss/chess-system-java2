@@ -10,6 +10,7 @@ import chess.ChessPosition;
 
 public class Program {
 
+	
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
@@ -27,6 +28,7 @@ public class Program {
 				System.out.print("Target: ");
 				ChessPosition target = UI.readChessPosition(sc);
 
+				
 				ChessPiece capturedPiece = chessMatch.performChessMove(source, target);
 
 			}
@@ -40,6 +42,6 @@ public class Program {
 			}
 
 		}
-
+	
 	}
 }
