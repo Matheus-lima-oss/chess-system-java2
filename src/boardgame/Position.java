@@ -5,8 +5,8 @@ public class Position {
 	private int rown;
 	private int column;
 	
-	public Position(int rown, int column) {
-		this.rown = rown;
+	public Position(int row, int column) {
+		this.rown = row;
 		this.column = column;
 	}
 
